@@ -9,6 +9,13 @@ public class App {
     public static void main(String[] args) {
     	Car car = new Car("v8引擎", "米其林轮胎");
     	System.out.println(car.start());
-//        System.out.println(new App().getGreeting());
+    	
+    	SportsCar sportsCar = new SportsCar("v12", "豪华轮胎", "钛合金炫酷尾灯");
+    	System.out.println(sportsCar.start());
+    	System.out.println(sportsCar.speedOn());
+    	
+    	Truck truck = new Truck("v8", "盖伦轮胎", "可载10吨货的车厢");
+    	System.out.println(truck.start());
+    	System.out.println(truck.load());
     }
 }
