@@ -7,11 +7,16 @@ public class Truck extends Car{
 		this.payload = payload;
 	}
 	
-	public String start() {
-		return "tips," + engine + " is on and " + wheels + " are running!";
-	}
+//	public String start() {
+//		return "tips," + engine + " is on and " + wheels + " are running!";
+//	}
 	
 	public String load() {
 		return payload + " is loading goods";
+	}
+
+	@Override
+	public String start() {
+		return "tips," + engine + " is on and " + wheels + " are running!";
 	}
 }

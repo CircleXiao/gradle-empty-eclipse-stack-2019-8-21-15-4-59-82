@@ -1,5 +1,5 @@
 
-public class Car {
+public abstract class Car {
 	protected String engine;
 	protected String wheels;
 	
@@ -8,7 +8,5 @@ public class Car {
 		this.wheels = wheels;
 	}
 	
-	public String start() {
-		return engine + " is on and " + wheels + " are running!";
-	}
+	public abstract String start();
 }
