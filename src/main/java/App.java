@@ -7,6 +7,8 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+    	Car car = new Car("v8引擎", "米其林轮胎");
+    	System.out.println(car.start());
+//        System.out.println(new App().getGreeting());
     }
 }
